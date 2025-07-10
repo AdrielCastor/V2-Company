@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
@@ -83,7 +82,7 @@ function App() {
               animate={{ opacity: 1, x: 0 }}
               className="text-2xl font-bold text-gradient"
             >
-              v2 Company
+              V2 Company
             </motion.div>
             <motion.div 
               initial={{ opacity: 0, x: 20 }}
@@ -235,7 +234,7 @@ function App() {
               transition={{ duration: 0.8 }}
             >
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                Sobre a <span className="text-gradient">v2 Company</span>
+                Sobre a <span className="text-gradient">V2 Company</span>
               </h2>
               <p className="text-xl text-gray-300 mb-6">
                 Somos dois amigos que transformaram a paixão por tecnologia e design 
@@ -296,7 +295,7 @@ function App() {
               {
                 name: "Maria Silva",
                 company: "Boutique Fashion",
-                text: "A v2 Company transformou completamente nossa presença digital. O site ficou incrível e as vendas aumentaram 200%!",
+                text: "A V2 Company transformou completamente nossa presença digital. O site ficou incrível e as vendas aumentaram 200%!",
                 rating: 5
               },
               {
@@ -365,7 +364,7 @@ function App() {
                   </div>
                   <div>
                     <div className="font-bold text-white">Telefone</div>
-                    <div className="text-gray-400">(11) 99999-9999</div>
+                    <div className="text-gray-400">(11) 94439-7218</div>
                   </div>
                 </div>
                 
@@ -375,7 +374,7 @@ function App() {
                   </div>
                   <div>
                     <div className="font-bold text-white">E-mail</div>
-                    <div className="text-gray-400">contato@v2company.com</div>
+                    <div className="text-gray-400">driel4mcastor@gmail.com</div>
                   </div>
                 </div>
                 
@@ -442,7 +441,7 @@ function App() {
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <div className="text-2xl font-bold text-gradient mb-4">v2 Company</div>
+              <div className="text-2xl font-bold text-gradient mb-4">V2 Company</div>
               <p className="text-gray-400">
                 Transformando ideias em realidade digital através de design, 
                 tecnologia e estratégia.
@@ -463,15 +462,15 @@ function App() {
             <div>
               <span className="font-bold text-white mb-4 block">Contato</span>
               <ul className="space-y-2 text-gray-400">
-                <li>(11) 99999-9999</li>
-                <li>contato@v2company.com</li>
+                <li>(11) 94439-7218</li>
+                <li>driel4mcastor@gmail.com</li>
                 <li>São Paulo, SP</li>
               </ul>
             </div>
           </div>
           
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 v2 Company. Todos os direitos reservados.</p>
+            <p>&copy; 2025 V2 Company. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>
